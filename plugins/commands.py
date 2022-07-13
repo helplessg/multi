@@ -38,25 +38,25 @@ async def start_message(bot, message):
            caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
            reply_markup=InlineKeyboardMarkup( [[
                InlineKeyboardButton("📮 Support 📮", url="https://t.me/hddubhub4uhelp"),
-               InlineKeyboardButton("🔮 Oᴛʜᴇʀ Bᴏᴛs 🔮", url="https://t.me/Beta_Bot_Updates")
+               InlineKeyboardButton("🔮 Oᴛʜᴇʀ Bᴏᴛs 🔮", url="https://t.me/futurebackups")
                ],[            
                InlineKeyboardButton("ℹ️ Hᴇʟᴘ ℹ️ ", callback_data="help"),
-               InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
+               InlineKeyboardButton("🤣 Fᴜɴ 🤣", callback_data="fun")
                ],[
-               InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
-               InlineKeyboardButton("🤖 𝐀𝐁𝐎𝐔𝐓", callback_data="about")
+               InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍😈 ", callback_data="devs"),
+               InlineKeyboardButton("🌹 Aʙᴏᴜᴛ 🌹", callback_data="about")
                ]]
                )
            )
        if not await db.is_user_exist(message.from_user.id):
           await db.add_user(message.from_user.id)
           await bot.send_message(LOG_CHANNEL, text=f"""<i>
-<u>👁️‍🗨️USER DETAILS</u>
+<u>👁️‍🗨️ USER DETAILS </u>
 
-○ ID : <code>{message.from_user.id}</code>
-○ DC : <code>{message.from_user.dc_id}</code>
-○ First Name : <code>{message.from_user.first_name}<code>
-○ UserName : @{message.from_user.username}
+○ 🎗 ID : <code>{message.from_user.id}</code>
+○ 🎭 DC : <code>{message.from_user.dc_id}</code>
+○ 🎀 First Name : <code>{message.from_user.first_name}<code>
+○ 💡 UserName : @{message.from_user.username}
 
 By = {bot. mention}</i>""")     
 
@@ -69,15 +69,15 @@ async def id_message(bot, message):
         return
     await message.reply_text(
     text = f"""<i>
-<u>👁️‍🗨️YOUR DETAILS</u>
+<u>👁️‍🗨️ YOUR DETAILS </u>
 
-○ ID : <code>{message.from_user.id}</code>
-○ DC : <code>{message.from_user.dc_id}</code>
-○ First Name : <code>{message.from_user.first_name}<code>
-○ UserName : @{message.from_user.username}
-○ link : <code>https://t.me/{message.from_user.username}</code>
+○ 🎗 ID : <code>{message.from_user.id}</code>
+○ 🎭 DC : <code>{message.from_user.dc_id}</code>
+○ 🎀 First Name : <code>{message.from_user.first_name}<code>
+○ 💡 UserName : @{message.from_user.username}
+○ 🔗 Link : <code>https://t.me/{message.from_user.username}</code>
 
-Thank You For Using Me❣️</i>""")
+Thank You For Using Me❣️\nPᴏᴡᴇʀᴇᴅ Bʏ ❗ @robo_glitch </i>""")
 
 
 @Client.on_message(filters.command(["stickerid"]))
@@ -86,9 +86,9 @@ async def stickerid(bot, message):
     if kikked == 400:
         return 
     if message.reply_to_message.sticker:
-       await message.reply(f"**Sticker ID is**  \n `{message.reply_to_message.sticker.file_id}` \n \n ** Unique ID is ** \n\n`{message.reply_to_message.sticker.file_unique_id}`", quote=True)
+       await message.reply(f"**🎗 Sticker ID is**  \n `{message.reply_to_message.sticker.file_id}` \n \n **🎭 Unique ID is ** \n\n`{message.reply_to_message.sticker.file_unique_id}`", quote=True)
     else: 
-       await message.reply("Oops !! Not a sticker file")
+       await message.reply("😳 Oops !! Not a sticker file 📁")
 
 
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["broadcast"]))
@@ -119,25 +119,25 @@ async def logosq(bot, message):
     if kikked == 400:
         return
     try:
-      text = message.text.replace("logosq","").replace("/","").replace("[ᗷETᗩ]","").strip().upper()
+      text = message.text.replace("logosq","").replace("/","").replace(" Pᴏᴡᴇʀᴇᴅ Bʏ ❗ @robo_glitch ","").strip().upper()
       
       if text == "":
-        return await message.reply_text("**To Make Logo -** /logo Your Name\n**To Make Square Logo - ** /logosq Your Name\n\n**♻️ Example:**\n/logo BETA\n/logosq BETA")
+        return await message.reply_text("**To Make Logo -** /logo Your Name\n**To Make Square Logo - ** /logosq Your Name\n\n**♻️ Example:**\n/logo Glitch\n/logosq Glitch")
   
-      x = await message.reply_text("`🔍 Generating Logo For You...`")  
+      x = await message.reply_text("`⚡ Generating Logo For You...⌛`")  
       logo = await generate_logo(text,True)
   
       if "telegra.ph" not in logo:
-        return await x.edit("`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ]")
+        return await x.edit("`❌ Something Went Wrong...`\n\nReport This Error In @glichassistantbot")
         
       if "error" in logo:
-        return await x.edit(f"`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ] \n\n`{logo}`")
+        return await x.edit(f"`❌ Something Went Wrong...`\n\nReport This Error In @glichassistantbot\n\n`{logo}`")
         
-      await x.edit("`🔄 Done Generated... Now Sending You`")
+      await x.edit("`🔄 Done Generated... Now Sending You ⌛`")
       
       logo_id = logo.replace("https://telegra.ph//file/","").replace(".jpg","").strip()
       
-      await message.reply_photo(logo,caption="**🖼 Logo Generated By [ᗷETᗩ]**",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Upload As File 📁", callback_data=f"flogo {logo_id}")]]))
+      await message.reply_photo(logo,caption="**🖼 Logo Generated By @robo_glitch**",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Upload As File 📁", callback_data=f"flogo {logo_id}")]]))
       await x.delete()
     except FloodWait:
       pass
@@ -146,7 +146,7 @@ async def logosq(bot, message):
         await x.delete()
       except:
         pass
-      return await message.reply_text("`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ]")
+      return await message.reply_text("`❌ Something Went Wrong...`\n\nReport This Error In @glichassistantbot")
 
 @Client.on_message(filters.command("logo") & filters.incoming & filters.text & ~filters.forwarded & filters.private)
 async def logo(bot, message):
@@ -154,10 +154,10 @@ async def logo(bot, message):
   if kikked == 400:
       return
   try:
-    text = message.text.replace("logo","").replace("/","").replace("@TechZLogoMakerBot","").strip().upper()
+    text = message.text.replace("logo","").replace("/","").replace("@GlitchLogoMakerBot","").strip().upper()
     
     if text == "":
-      return await message.reply_text("**To Make Logo -** /logo Your Name\n**To Make Square Logo - ** /logosq Your Name\n\n**♻️ Example:**\n/logo BETAs\n/logosq MKN")
+      return await message.reply_text("**To Make Logo -** /logo Your Name\n**To Make Square Logo - ** /logosq Your Name\n\n**♻️ Example:**\n/logo Glitch\n/logosq MKN")
 
     x = await message.reply_text("`🔍 Generating Logo For You...`")  
     logo = await generate_logo(text)
@@ -171,7 +171,7 @@ async def logo(bot, message):
     await x.edit("`🔄 Done Generated... Now Sending You`")
 
     logo_id = logo.replace("https://telegra.ph//file/","").replace(".jpg","").strip()
-    await message.reply_photo(logo,caption="**🖼 Logo Generated By [ᗷETᗩ]**",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Upload As File 📁", callback_data=f"flogo {logo_id}")]]))
+    await message.reply_photo(logo,caption="**🖼 Logo Generated By [ᗷETᗩ]**",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📁 Upload As File 📁", callback_data=f"flogo {logo_id}")]]))
     await x.delete()
   except FloodWait:
     pass
@@ -180,7 +180,7 @@ async def logo(bot, message):
       await x.delete()
     except:
       pass
-    return await message.reply_text("`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ]")
+    return await message.reply_text("`❌ Something Went Wrong...`\n\nReport This Error In @glichassistantbot")
 
 
 @Client.on_callback_query(filters.regex("flogo"))
@@ -195,7 +195,7 @@ async def logo_doc(_,query):
     pass
   except Exception as e:
     try:
-      return await x.edit(f"`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ] \n\n`{str(e)}`")
+      return await x.edit(f"`❌ Something Went Wrong...`\n\nReport This Error In @glichassistantbot\n\n`{str(e)}`")
     except:
       return
     
