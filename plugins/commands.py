@@ -14,11 +14,11 @@ import random
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
     await message.reply_text(
-       text="**Sorry bro,You didn't Joined Our Updates Channel Join now and start again🙏**",
+       text="**📢Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ ❤**",
        reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton(text="📢𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕📢", url=client.invitelink)
+           InlineKeyboardButton(text="📢📢 Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ 📢", url=client.invitelink)
            ],[
-           InlineKeyboardButton("🔄 𝚃𝚛𝚢 𝙰𝚐𝚊𝚒𝚗 🔄", url=f"https://t.me/{client.username}?start=start")            
+           InlineKeyboardButton("🔄 Tʀʏ ᴀɢᴀɪɴ 🔄", url=f"https://t.me/{client.username}?start=start")            
            ]]
            )
        )
@@ -37,10 +37,10 @@ async def start_message(bot, message):
            photo=random.choice(PICS),
            caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
            reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-               InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Beta_Bot_Updates")
+               InlineKeyboardButton("📮 Support 📮", url="https://t.me/hddubhub4uhelp"),
+               InlineKeyboardButton("🔮 Oᴛʜᴇʀ Bᴏᴛs 🔮", url="https://t.me/Beta_Bot_Updates")
                ],[            
-               InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
+               InlineKeyboardButton("ℹ️ Hᴇʟᴘ ℹ️ ", callback_data="help"),
                InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
                ],[
                InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
