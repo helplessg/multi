@@ -9,11 +9,11 @@ from helper.ban import BanChek
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
     await message.reply_text(
-       text="**⚠️Sorry bro,You didn't Joined Our Updates Channel Join now and start again🙏**",
+       text="**⚠📢Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ ❤**",
        reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton(text="📢𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕📢", url=client.invitelink)
+           InlineKeyboardButton(text="📢 Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ 📢", url=client.invitelink)
            ],[
-           InlineKeyboardButton("🔄 𝚃𝚛𝚢 𝙰𝚐𝚊𝚒𝚗 🔄", url=f"https://t.me/{client.username}?start=start")            
+           InlineKeyboardButton("🔄 Tʀʏ ᴀɢᴀɪɴ 🔄", url=f"https://t.me/{client.username}?start=start")            
            ]]
            )
        )
@@ -50,7 +50,7 @@ async def telegraph(client, message):
         file_name="root/downloads/",
     )
     mkn=await message.reply_text(
-        text="<code>Trying to processing please weit.....</code>",
+        text="<code>📍Trying to processing please weit.....⌛</code>",
         disable_web_page_preview=True
     )
     await asyncio.sleep(2)
@@ -66,10 +66,10 @@ async def telegraph(client, message):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="open link", url=f"https://telegra.ph{response[0]}"),
-                    InlineKeyboardButton(text="share link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
+                    InlineKeyboardButton(text="🔗 Open link 🔗", url=f"https://telegra.ph{response[0]}"),
+                    InlineKeyboardButton(text="🚻 share link 🚻", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
-                [InlineKeyboardButton(text="✗ Close ✗", callback_data="close")]
+                [InlineKeyboardButton(text="❌ Close ❌", callback_data="close")]
             ]
         )
     )
