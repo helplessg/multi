@@ -27,38 +27,38 @@ To Make Logo - /logo Your Name
 To Make Square Logo -  /logosq Your Name
 
 ♻️ Example:
-/logo BETAs
-/logosq MKN
+/logo Glitch
+/logosq Glitch mkv
 
 🤩THANKS FOR USING ME😍
 """,       
            reply_markup=InlineKeyboardMarkup( [[
                   InlineKeyboardButton("🤖 𝐌𝐘 𝐁𝐎𝐓𝐒", callback_data="botz")
                   ],[
-                  InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
-                  InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
+                  InlineKeyboardButton("💚 Start", callback_data="start"),
+                  InlineKeyboardButton("🔒 Close", callback_data="close")
                   ]]
                   )
            )
    elif data == "about":
          await msg.message.edit(
              text=f""" 
-╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
+╔════❰ Pᴏᴡᴇʀᴇᴅ Bʏ ❗ @robo_glitch ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot.mention}
-║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a>
-║┣⪼👨‍💻ᴅᴇᴠ 2 : <a href=https://t.me/mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-║┣⪼❣️sᴏᴜʀᴄᴇ ᴄᴏᴅ : <a href=https://github.com/Jeolpaul/TG-MULTI-BOT>ᴛɢ-ᴍᴜʟᴛɪ-ʙᴏᴛ</a>
-║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://dashboard.heroku.com>ʜᴇʀᴏᴋᴜ</a>
-║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ3</a>
-║┣⪼📚ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
+║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/the_glitchs</a>
+║┣⪼📢Cʜᴀɴɴᴇʟ: <a href=https://t.me/hddubhub4u>HD DUB HUB 4 U</a>
+║┣⪼🔮Oᴛʜᴇʀ Bᴏᴛs: <a href=https://github.com/Jeolpaul/futurebackups>Future Backups</a>
+║┣⪼📮Support: <a href=https://t.me/hddubhub4uhelp>Feadbacks</a>
+║┣⪼🎥Movies: <a href=https://t.me/dubbedweb>Group</a>
+║┣⪼📽New Release: <a href=https://github.com/hddubhub4u>Movies</a> 
 ║┣⪼🗒️ᴠᴇʀsɪᴏɴ : Pyrogram v{__version__}  
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍ """,
               disable_web_page_preview = True,
               reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
-                  InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
+                  InlineKeyboardButton("💚 Start", callback_data="start"),
+                  InlineKeyboardButton("🔒 Close", callback_data="close")
                   ]]
                   )
          )        
@@ -66,28 +66,28 @@ To Make Square Logo -  /logosq Your Name
          await msg.message.edit(
              text=f"Hello {msg.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",          
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-                  InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
+                  InlineKeyboardButton("📮 Support 📮", url="https://t.me/BETA_BOTSUPPORT"),
+                  InlineKeyboardButton("🔮 Oᴛʜᴇʀ Bᴏᴛs 🔮", url="https://t.me/BETA_UPDATES")
                   ],[            
-                  InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
-                  InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
+                  InlineKeyboardButton("ℹ️ Hᴇʟᴘ ℹ️", callback_data="help"),
+                  InlineKeyboardButton("🤣 Fᴜɴ 🤣", callback_data="fun")
                   ],[
-                  InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
-                  InlineKeyboardButton("🤖 𝐀𝐁𝐎𝐔𝐓", callback_data="about")
+                  InlineKeyboardButton("😈Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data="devs"),
+                  InlineKeyboardButton("🌹 Aʙᴏᴜᴛ 🌹", callback_data="about")
                   ]]
                   )
              )
    elif data == "devs":
          await msg.message.edit(
-             text=f"This Bot will be made @JP_Jeol & @mr_MKN ",
+             text=f"This Bot will be made @the_glitcs & @robo_glitch ",
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 1", url="https://t.me/JP_Jeol_org"),
-                  InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 2", url="https://t.me/mr_MKN")
+                  InlineKeyboardButton("🔍 Movies Bot 🎥 ", url="https://t.me/JP_Jeol_org"),
+                  InlineKeyboardButton("⚡ Rename Bot ⚡", url="https://t.me/mr_MKN")
                   ],[
-                  InlineKeyboardButton("❣️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 ❣️", url="https://github.com/Jeolpaul/TG-MULTI-BOT"),
+                  InlineKeyboardButton("📍 Bots Staus 📍", url="https://github.com/Jeolpaul/TG-MULTI-BOT"),
                   ],[
-                  InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
-                  InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
+                  InlineKeyboardButton("↩️ Back", callback_data="start"),
+                  InlineKeyboardButton("🔒 Close", callback_data="close")
                   ]]
                   )
              )
@@ -106,8 +106,8 @@ To Make Square Logo -  /logosq Your Name
 ◉ /tenpins    
 """,      
              reply_markup=InlineKeyboardMarkup( [[
-                 InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
-                 InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
+                 InlineKeyboardButton("↩️ Back", callback_data="start"),
+                 InlineKeyboardButton("🔒 Close", callback_data="close")
                  ]]
                  )
              )
@@ -115,13 +115,13 @@ To Make Square Logo -  /logosq Your Name
          await msg.message.edit(
              text="🤖 This is My botz 😁",
                  reply_markup=InlineKeyboardMarkup( [[
-                     InlineKeyboardButton("ℹ️ 𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐓", url="https://t.me/GeorgeMalarobot"),
-                     InlineKeyboardButton("🎵 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓", url="https://t.me/SK_MUSIC_ROBOT")
+                     InlineKeyboardButton("😉 Get Download link Bot", url="https://t.me/GeorgeMalarobot"),
+                     InlineKeyboardButton("🛠Channel Bot", url="https://t.me/SK_MUSIC_ROBOT")
                      ],[
-                     InlineKeyboardButton("🎖️ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 🎖️", url="https://t.me/MKN_GROUPMANAGEROBOT")
+                     InlineKeyboardButton("🎖️ Group Manger Bot 🎖️", url="https://t.me/MKN_GROUPMANAGEROBOT")
                      ],[                   
-                     InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
-                     InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
+                     InlineKeyboardButton("↩️ Back ", callback_data="start"),
+                     InlineKeyboardButton("🔒 Close", callback_data="close")
                      ]]
                      )
                  )
