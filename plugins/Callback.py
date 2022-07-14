@@ -9,56 +9,56 @@ async def callback(bot, msg):
    data = msg.data
    if data == "help":
        await msg.message.edit(       
-           text="""HEY HERE YOU CAN FIND THE BASIC COMMANDS OF MINE.IF YOU DON'T KNOW HOW TO USE COMMAND JOIN SUPPORT GROUP AND ASK.
+           text="""**HEY HERE YOU CAN FIND THE BASIC COMMANDS OF MINE.IF YOU DON'T KNOW HOW TO USE COMMAND JOIN SUPPORT GROUP AND ASK**.
 
-<b><u>COMMANDS</u></b>
+<b><u>🛠 Sᴏᴍᴇ Fᴜɴ Cᴏᴍᴍᴀɴᴅs 🛠</u></b>
 
 ◉ send channel last message with
-  forwerd tag to get the channel id 💯
+  forwerd tag to get the channel id 🎗
 
-◉ /id - your tg id & info
+◉ /id - your tg id & info 🎗
 
 ◉ /telegraph - reply to below 5Mb media
-  to get telegraph link💯
+  to get telegraph Link 🔗 
 
-◉ /stickerid - Reply To Any Sticker to get sticker id
+◉ /stickerid - Reply To Any Sticker to get sticker id 🎗
 
 To Make Logo - /logo Your Name
 To Make Square Logo -  /logosq Your Name
 
 ♻️ Example:
 /logo Glitch
-/logosq Glitch mkv
+/logosq Glitch 
 
-🤩THANKS FOR USING ME😍
+🌹 THANKS FOR USING ME 🌹
 """,       
            reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("🤖 𝐌𝐘 𝐁𝐎𝐓𝐒", callback_data="botz")
+                  InlineKeyboardButton("🤖 Sᴏᴍᴇ Vᴇʀʏ Usᴇғᴜʟ Bᴏᴛs 🤖", callback_data="botz")
                   ],[
-                  InlineKeyboardButton("💚 Start", callback_data="start"),
-                  InlineKeyboardButton("🔒 Close", callback_data="close")
+                  InlineKeyboardButton("🚶Bᴀᴄᴋ", callback_data="start"),
+                  InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data="close")
                   ]]
                   )
            )
    elif data == "about":
          await msg.message.edit(
              text=f""" 
-╔════❰ Pᴏᴡᴇʀᴇᴅ Bʏ ❗ @robo_glitch ❱═❍
+╔════❰ P-Bʏ ❗ **@robo_glitch** ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot.mention}
-║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/the_glitchs</a>
-║┣⪼📢Cʜᴀɴɴᴇʟ: <a href=https://t.me/hddubhub4u>HD DUB HUB 4 U</a>
-║┣⪼🔮Oᴛʜᴇʀ Bᴏᴛs: <a href=https://github.com/Jeolpaul/futurebackups>Future Backups</a>
-║┣⪼📮Support: <a href=https://t.me/hddubhub4uhelp>Feadbacks</a>
-║┣⪼🎥Movies: <a href=https://t.me/dubbedweb>Group</a>
-║┣⪼📽New Release: <a href=https://github.com/hddubhub4u>Movies</a> 
-║┣⪼🗒️ᴠᴇʀsɪᴏɴ : Pyrogram v{__version__}  
+║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : **{bot.mention}**
+║┣⪼😈ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/the_glitchs>[༒Tʜᴇ Gʟɪᴛᴄʜ༒]</a>
+║┣⪼📢Cʜᴀɴɴᴇʟ: <a href=https://t.me/hddubhub4u>[ʜᴅ-ᴅᴜʙ-ʜᴜʙ-ᴜ]</a>
+║┣⪼🔮Oᴛʜᴇʀ Bᴏᴛs: <a href=https://t.me/futurebackups>[Fᴜᴛᴜʀᴇ Bᴀᴄᴋᴜᴘs]</a>
+║┣⪼📮Sᴜᴘᴘᴏʀᴛ: <a href=https://t.me/hddubhub4uhelp>[Sᴜᴘᴘᴏʀᴛ]</a>
+║┣⪼🎥Mᴏᴠɪᴇ's: <a href=https://t.me/dubbedweb>[Mᴏᴠɪᴇs-Gʀᴏᴜᴘ]</a>
+║┣⪼📽Nᴇᴡ Rᴇʟᴇᴀsᴇ: <a href=https://t.me/hddubhub4u>[Nᴇᴡ-Rᴇʟᴇᴀsᴇ]</a> 
+║┣⪼🗒️ᴠᴇʀsɪᴏɴ :<b>Pʏʀᴏɢʀᴀᴍ ᴠ {__version__}</b>
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍ """,
               disable_web_page_preview = True,
               reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("💚 Start", callback_data="start"),
-                  InlineKeyboardButton("🔒 Close", callback_data="close")
+                  InlineKeyboardButton("🚶Bᴀᴄᴋ", callback_data="start"),
+                  InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data="close")
                   ]]
                   )
          )        
@@ -66,8 +66,8 @@ To Make Square Logo -  /logosq Your Name
          await msg.message.edit(
              text=f"Hello {msg.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",          
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("📮 Support 📮", url="https://t.me/BETA_BOTSUPPORT"),
-                  InlineKeyboardButton("🔮 Oᴛʜᴇʀ Bᴏᴛs 🔮", url="https://t.me/BETA_UPDATES")
+                  InlineKeyboardButton("📮 Sᴜᴘᴘᴏʀᴛ 📮", url="https://t.me/hddubhub4uhelp"),
+                  InlineKeyboardButton("🔮 Oᴛʜᴇʀ Bᴏᴛs 🔮", url="https://t.me/futurebackups")
                   ],[            
                   InlineKeyboardButton("ℹ️ Hᴇʟᴘ ℹ️", callback_data="help"),
                   InlineKeyboardButton("🤣 Fᴜɴ 🤣", callback_data="fun")
