@@ -81,19 +81,19 @@ To Make Square Logo -  /logosq Your Name
          await msg.message.edit(
              text=f"This Bot will be made @the_glitcs & @robo_glitch ",
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("🔍 Movies Bot 🎥 ", url="https://t.me/JP_Jeol_org"),
-                  InlineKeyboardButton("⚡ Rename Bot ⚡", url="https://t.me/mr_MKN")
+                  InlineKeyboardButton("🔍 Oʟ Mᴏᴠɪᴇ's Bᴏᴛ 🎥 ", url="https://t.me/olmoviesbot"),
+                  InlineKeyboardButton("📝 Mᴜʟᴛɪ Rᴇɴᴀᴍᴇʀ Bᴏᴛ ⚡", url="https://t.me/Mᴜʟᴛɪ Rᴇɴᴀᴍᴇʀ Bᴏᴛ")
                   ],[
-                  InlineKeyboardButton("📍 Bots Staus 📍", url="https://github.com/Jeolpaul/TG-MULTI-BOT"),
+                  InlineKeyboardButton("📊 Bᴏᴛs Lɪᴠᴇ Sᴛᴀᴛᴜs 📈", url="https://t.me/futurebackups/754"),
                   ],[
-                  InlineKeyboardButton("↩️ Back", callback_data="start"),
-                  InlineKeyboardButton("🔒 Close", callback_data="close")
+                  InlineKeyboardButton("🚶Bᴀᴄᴋ", callback_data="start"),
+                  InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data="close")
                   ]]
                   )
              )
    elif data == "fun":
          await msg.message.edit(
-             text=f"""<b><u>JUS TEST THIS COMMANDS 😉</u></b>
+             text=f"""<b><u>🛠 Sᴏᴍᴇ Fᴜɴ Cᴏᴍᴍᴀɴᴅs 😉</u></b>
 
 ◉ /runs         
 ◉ /ikka      
@@ -106,8 +106,8 @@ To Make Square Logo -  /logosq Your Name
 ◉ /tenpins    
 """,      
              reply_markup=InlineKeyboardMarkup( [[
-                 InlineKeyboardButton("↩️ Back", callback_data="start"),
-                 InlineKeyboardButton("🔒 Close", callback_data="close")
+                 InlineKeyboardButton("🚶Bᴀᴄᴋ", callback_data="start"),
+                 InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data="close")
                  ]]
                  )
              )
