@@ -113,15 +113,15 @@ To Make Square Logo -  /logosq Your Name
              )
    elif data == "botz":
          await msg.message.edit(
-             text="🤖 This is My botz 😁",
+             text="🤖 Tʜᴇsᴇ ᴀʀᴇ Sᴏᴍᴇ Oғ Hᴇʟᴘғᴜʟ Bᴏᴛ Yᴏᴜ Cᴀɴ Aʟsᴏ Usᴇ 😁",
                  reply_markup=InlineKeyboardMarkup( [[
-                     InlineKeyboardButton("😉 Get Download link Bot", url="https://t.me/GeorgeMalarobot"),
-                     InlineKeyboardButton("🛠Channel Bot", url="https://t.me/SK_MUSIC_ROBOT")
+                     InlineKeyboardButton("🔘 ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ 🔘", url="https://t.me/GlitchAutoCaptionBot"),
+                     InlineKeyboardButton("📽OTT Mᴏᴠɪᴇ/Sᴇʀɪᴇs Bᴏᴛ📽", url="https://t.me/Ott_MoviesBot")
                      ],[
-                     InlineKeyboardButton("🎖️ Group Manger Bot 🎖️", url="https://t.me/MKN_GROUPMANAGEROBOT")
+                     InlineKeyboardButton("🔗 ᴅᴏᴡɴ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ 🔗", url="https://t.me/DownLinkGeneratorBot")
                      ],[                   
-                     InlineKeyboardButton("↩️ Back ", callback_data="start"),
-                     InlineKeyboardButton("🔒 Close", callback_data="close")
+                     InlineKeyboardButton("🚶Bᴀᴄᴋ ", callback_data="start"),
+                     InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data="close")
                      ]]
                      )
                  )
