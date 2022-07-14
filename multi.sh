@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/helplessg/multi.git /TG-MULTI-BOT     
+  git clone https://github.com/helplessg/multi.git /multi      
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /TG-MULTI-BOT
