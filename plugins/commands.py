@@ -14,7 +14,7 @@ import random
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
     await message.reply_text(
-       text="**📢Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ ❤**",
+       text="**📢 Yᴏᴜ ᴅɪᴅɴ'ᴛ Jᴏɪɴᴇᴅ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Jᴏɪɴ ɴᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ᴀɢᴀɪɴ ❤**",
        reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton(text="📢 Jᴏɪɴ Mᴀɪɴ Cʜᴀɴɴᴇʟ 📢", url=client.invitelink)
            ],[
@@ -77,7 +77,7 @@ async def id_message(bot, message):
 ○ 💡 UserName : @{message.from_user.username}
 ○ 🔗 Link : <code>https://t.me/{message.from_user.username}</code>
 
-🌹 **Thank You For Using Me❣️\nPᴏᴡᴇʀᴇᴅ Bʏ ❗ @robo_glitch**</i>""")
+🌹**Thank You For Using Me❣️\nPᴏᴡᴇʀᴇᴅ Bʏ ❗ @robo_glitch**</i>""")
 
 
 @Client.on_message(filters.command(["stickerid"]))
