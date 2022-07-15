@@ -4,9 +4,9 @@ then
   git clone https://github.com/helplessg/multi.git /multi      
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /TG-MULTI-BOT
+  git clone $UPSTREAM_REPO /multi
 fi
-cd /TG-MULTI-BOT
+cd /multi
 pip3 install -U -r requirements.txt
 echo "BOT IS STARTING⚡️⚡️⚡️"
 python3 loader.py
