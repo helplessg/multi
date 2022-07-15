@@ -72,7 +72,7 @@ To Make Square Logo -  /logosq Your Name
                   InlineKeyboardButton("ℹ️ Hᴇʟᴘ ℹ️", callback_data="help"),
                   InlineKeyboardButton("🤣 Fᴜɴ 🤣", callback_data="fun")
                   ],[
-                  InlineKeyboardButton("😈Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data="devs"),
+                  InlineKeyboardButton("😈 Dᴇᴠᴇʟᴏᴘᴇʀ 😈", callback_data="devs"),
                   InlineKeyboardButton("🌹 Aʙᴏᴜᴛ 🌹", callback_data="about")
                   ]]
                   )
@@ -82,7 +82,7 @@ To Make Square Logo -  /logosq Your Name
              text=f"This Bot will be made @the_glitcs & @robo_glitch ",
              reply_markup=InlineKeyboardMarkup( [[
                   InlineKeyboardButton("🔍 Oʟ Mᴏᴠɪᴇ's Bᴏᴛ 🎥 ", url="https://t.me/olmoviesbot"),
-                  InlineKeyboardButton("📝 Mᴜʟᴛɪ Rᴇɴᴀᴍᴇʀ Bᴏᴛ ⚡", url="https://t.me/Mᴜʟᴛɪ Rᴇɴᴀᴍᴇʀ Bᴏᴛ")
+                  InlineKeyboardButton("📝 Mᴜʟᴛɪ Rᴇɴᴀᴍᴇʀ Bᴏᴛ ⚡", url="https://t.me/MultiRenamerBot")
                   ],[
                   InlineKeyboardButton("📊 Bᴏᴛs Lɪᴠᴇ Sᴛᴀᴛᴜs 📈", url="https://t.me/futurebackups/754"),
                   ],[
@@ -118,7 +118,7 @@ To Make Square Logo -  /logosq Your Name
                      InlineKeyboardButton("🔘 ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ 🔘", url="https://t.me/GlitchAutoCaptionBot"),
                      InlineKeyboardButton("📽OTT Mᴏᴠɪᴇ/Sᴇʀɪᴇs Bᴏᴛ📽", url="https://t.me/Ott_MoviesBot")
                      ],[
-                     InlineKeyboardButton("🔗 ᴅᴏᴡɴ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ 🔗", url="https://t.me/DownLinkGeneratorBot")
+                     InlineKeyboardButton("🔗ᴅᴏᴡɴ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ🔗", url="https://t.me/DownLinkGeneratorBot")
                      ],[                   
                      InlineKeyboardButton("🚶Bᴀᴄᴋ ", callback_data="start"),
                      InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data="close")
